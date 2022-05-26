@@ -1,0 +1,345 @@
+@media (min-width:1400px) {
+    
+}
+@media (min-width:1200px) and (max-width:1399px) {
+
+}
+@media (min-width:992px) and (max-width:1199px) {
+    .gap-area{
+        width: 900px;
+    }
+    .hero-section{
+        width: 800px;
+        padding: 20px 0;
+    }
+    .text-part h3{
+        font-size: 27px;
+    }
+    .vector-part{
+        width: 45%;
+    }
+    .vector-part img{
+        height: 250px;
+        width: 350px;
+        margin: 0 0 0 50px;
+    }
+   
+
+    .process-content p{
+        width: 290px;
+        font-size: 19px;
+    }
+    .process-content h2{
+        font-size: 30px;
+    }
+
+
+    .second-column input {
+        width: 400px;
+    }
+    .second-column textarea{
+        width: 400px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .gap-area{
+        width: 700px;
+    }
+     .menu{
+        display: none;
+    }
+    .hero-section{
+        width: 600px;
+        padding: 20px 0;
+    }
+    .vector-part{
+        display: none;
+    }
+    .text-part{
+        width: 95%;
+    }
+    .btn a{
+        color: black;
+    }
+
+
+
+    .gaparea{
+        width: 600px;
+    }
+    .first-item, .second-item, .third-item{
+        margin:20px 0;
+    }
+    .Service-section{
+        padding: 30px 0;
+    }
+
+
+    .process-content p{
+        width: 220px;
+        font-size: 18px;
+    }
+    .process-content h2{
+        font-size: 20px;
+    }
+    .first-content span{
+        height: 130px;
+        width: 150px;
+    }
+
+    .port-content img{
+        height: 300px;
+     }
+
+     .both-column{
+         flex-direction: column;
+     }
+     .first-column, .second-column{
+         text-align: center;
+         width: 100%;
+     }
+     .second-column .btn{
+         color: black;
+     }
+
+
+     .footer-para{
+        padding: 20px 0;
+    }
+}
+@media (min-width:576px) and (max-width:767px) {
+    .gap-area{
+        width: 500px;
+    }
+    .menu{
+        display: none;
+    }
+    .navigation{
+      justify-content: center;
+    }
+
+    .hero-section{
+        width: 400px;
+    }
+    .vector-part{
+        display: none;
+    }
+    .text-part{
+        width: 100%;
+    }
+    
+
+    .gaparea{
+        width: 500px;
+    }
+    .first-item, .second-item, .third-item{
+        margin:10px 0;
+    }
+    .Service-section{
+        padding: 30px 0;
+    }
+    .gaparea span{
+        font-size: 30px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .gaparea p{
+        width: 150px;
+        margin-top: 8px;
+    }
+    .gaparea h2{
+        font-size: 20px;
+    }
+
+
+    .process-content p{
+        width: 160px;
+        font-size: 15px;
+        color:rgba(0, 0, 0, 0.6);
+    }
+    .process-content h2{
+        font-size: 15px;
+    }
+    .first-content span{
+        height: 100px;
+        width: 120px;
+    }
+
+    .port-content img{
+        height: 250px;
+     }
+
+
+     .contact-section{
+         padding: 70px 0;
+     }
+     .both-column{
+        flex-direction: column;
+    }
+    .first-column, .second-column{
+        text-align: center;
+        width: 100%;
+    }
+    .second-column .btn{
+        color: black;
+    }
+    .second-column input {
+        width: 330px;
+    }
+    .second-column textarea{
+        width: 330px;
+    }
+    .both-column h1{
+        font-size: 40px;
+       
+    }
+    .both-column h1::after{
+   
+    top: -50px;
+    font-size: 100px;
+    letter-spacing: 8px;
+    }
+
+    .footer-para{
+        padding: 15px 0;
+    }
+    .footer-para p{
+        font-size: 20px;
+    }
+}
+@media (max-width:575px) {
+    .gap-area{
+        width: 300px;
+    }
+    .logo img{
+        width: 200px;
+    }
+    .menu{
+        display: none;
+    }
+    .navigation{
+      justify-content: center;
+    }
+    .hero-section{
+        width: 200px;
+    }
+    .text-part h1{
+        font-size: 25px;
+    }
+    .vector-part{
+        display: none;
+    }
+    .text-part{
+        width: 95%;
+    }
+    .text-part h3{
+        font-size: 15px;
+    }
+    .descripton{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .btn a{
+        color: black;
+    }
+
+    
+    .Service-section .gaparea{
+        width: 300px;
+        flex-direction: column;
+    }
+    .Service-section .gaparea p{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .process-section{
+        margin: 30px 0;
+    }
+    .first-item, .second-item, .third-item{
+       width: 100%;
+    }
+    .first-content-row, .second-content-row{
+        flex-direction: column;
+    }
+    .process-content p{
+        width: 150px;
+        font-size: 18px;
+        display: inline-block;
+        text-align: center;
+    }
+    .process-content span{
+      margin-top: 30px;
+    }
+    .process-content h2{
+        font-size: 18px;
+    }
+    .first-content, .second-content, .third-content{
+        margin-bottom: 50px;
+    }
+
+
+    .port-content h1{
+       font-size: 20px;
+    }
+    .port-content h1::after{
+        left: 35%;
+    }
+    .port-content img{
+        height: 200px;
+        display: block;
+        margin:0 auto 10px;
+
+     }
+
+
+     .contact-section{
+        padding: 70px 0;
+    }
+    .both-column{
+       flex-direction: column;
+   }
+   .first-column, .second-column{
+       text-align: center;
+       width: 100%;
+   }
+   .second-column .btn{
+       color: black;
+   }
+   .second-column input {
+       width: 260px;
+   }
+   .second-column textarea{
+       width: 260px;
+   }
+   .both-column h1{
+       font-size: 20px;
+      
+   }
+   .both-column h1::after{
+  
+   top: -25px;
+   font-size: 50px;
+   }
+
+
+   .social-section{
+       padding: 50px 0;
+   }
+   .social-section .gaparea {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+   }
+   .facebook, .instagram, .twitter{
+       padding-bottom: 30px;
+   }
+
+
+    .footer-para{
+        padding: 10px 0;
+    }
+    .footer-para p{
+        font-size: 12px;
+    }
+}
