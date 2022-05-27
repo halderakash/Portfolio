@@ -263,7 +263,7 @@
         flex-direction: column;
     }
     .process-content p{
-        width: 150px;
+         width: 80%;
         font-size: 18px;
         display: inline-block;
         text-align: center;
@@ -288,8 +288,8 @@
     .port-content img{
         height: 200px;
         display: block;
-        margin:0 auto 10px;
-
+        margin: 10px auto;
+        width: 200px;      
      }
 
 
